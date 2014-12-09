@@ -3283,4 +3283,8 @@ h6 {
     #ds-thread{
         padding: 0 0 0 0;
     }
+
+    .single .sidebar-container{
+        display:none;
+    }
 }
