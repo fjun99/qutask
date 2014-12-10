@@ -3316,3 +3316,11 @@ h6 {
     background-image: linear-gradient(to bottom, #f01a1a, #ff0000);
     text-decoration: none;
 }
+
+a.btn {
+    color: #ffffff;
+}
+
+a.btn:hover{
+    color:#DDDDDD;
+}
