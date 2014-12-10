@@ -22,5 +22,18 @@
 	</div><!-- #page -->
 
 	<?php wp_footer(); ?>
+
+<!-- JiaThis Button BEGIN -->
+<script type="text/javascript" >
+    var jiathis_config={
+        data_track_clickback:true,
+        summary:"",
+        shortUrl:false,
+        hideMore:false
+    }
+</script>
+<script type="text/javascript" src="http://v3.jiathis.com/code/jia.js?uid=1993513" charset="utf-8"></script>
+<!-- JiaThis Button END -->
+
 </body>
 </html>
