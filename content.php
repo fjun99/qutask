@@ -56,6 +56,7 @@
 //endif;
 ?>
 
+        <?php if ( is_single() ) :?>
         <!-- JiaThis Button BEGIN -->
         <div class="jiathis_style_32x32">
             <a class="jiathis_button_tsina"></a>
@@ -65,7 +66,7 @@
             <a class="jiathis_counter_style"></a>
         </div>
         <!-- JiaThis Button END -->
-
+        <?php endif; ?>
 
 
 	<!--?php the_content( __( 'Continue reading <span class="meta-nav">&rarr;</span>', 'twentythirteen' ) ); ?-->
