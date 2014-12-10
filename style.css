@@ -3328,3 +3328,7 @@ a.btn:hover{
 .home .hentry {
     padding-top: 14px;
 }
+
+.home .ds-thread {
+    display: none;
+}
