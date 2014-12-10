@@ -44,16 +44,16 @@
 <?php 
 //add text after article  2014-11-25
 //hack
-if ( is_single() ) :
-
-	$categories = get_the_category();
-	$category_id = $categories[0]->cat_ID;
-
-	if ($category_id==1):
-		echo do_shortcode( '[post-content id=1869]' );
-	endif;
-
-endif;
+//if ( is_single() ) :
+//
+//	$categories = get_the_category();
+//	$category_id = $categories[0]->cat_ID;
+//
+//	if ($category_id==1):
+//		echo do_shortcode( '[post-content id=1869]' );
+//	endif;
+//
+//endif;
 ?>
 
 
