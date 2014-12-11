@@ -42,6 +42,11 @@
     background-image: url("<?php echo get_template_directory_uri(); ?>/qu-logo.png");
 }
 
+.logo-img{
+    height:45px;
+    width:68px;
+}
+
 @media only screen and (-webkit-min-device-pixel-ratio: 2),
 only screen and (min--moz-device-pixel-ratio: 2),
 only screen and (-o-min-device-pixel-ratio: 2/1)
@@ -84,7 +89,9 @@ ul.nav-menu {
 					<button class="menu-toggle"><?php _e( 'Menu', 'twentythirteen' ); ?></button>
 					<a class="screen-reader-text skip-link" href="#content" title="<?php esc_attr_e( 'Skip to content', 'twentythirteen' ); ?>"><?php _e( 'Skip to content', 'twentythirteen' ); ?></a>
 					<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_class' => 'nav-menu' ) ); ?>
-                    <a class="site-logo" href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"></a>
+                    <a class="site-logo" href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
+                        <img src="<?php echo get_template_directory_uri(); ?>/qu-logo@2x.png" class="logo-img">
+                    </a>
 					<?php get_search_form(); ?>
 				</nav><!-- #site-navigation -->
 			</div><!-- #navbar -->
