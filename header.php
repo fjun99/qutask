@@ -33,6 +33,7 @@
 
 .site-logo{
     height:45px;
+    width:68px;
     max-height:45px;
 }
 
