@@ -49,7 +49,7 @@ ul.nav-menu {
 @media (max-width: 643px) {
     .site-logo{
         position: absolute;
-        left: 150px;
+        left: 120px;
         top: 0px;
     }
 
