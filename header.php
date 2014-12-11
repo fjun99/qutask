@@ -32,6 +32,7 @@
 <style>
 
 .site-logo{
+    display:block;
     height:45px;
     width:68px;
     max-height:45px;
@@ -67,7 +68,7 @@ ul.nav-menu {
 					<button class="menu-toggle"><?php _e( 'Menu', 'twentythirteen' ); ?></button>
 					<a class="screen-reader-text skip-link" href="#content" title="<?php esc_attr_e( 'Skip to content', 'twentythirteen' ); ?>"><?php _e( 'Skip to content', 'twentythirteen' ); ?></a>
 					<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_class' => 'nav-menu' ) ); ?>
-                    <div class="site-logo" style='background-image: url("<?php echo get_template_directory_uri(); ?>/qu-logo.jpg");'></div>
+                    <a class="site-logo" style='background-image: url("<?php echo get_template_directory_uri(); ?>/qu-logo.jpg");'  href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"></a>
 					<?php get_search_form(); ?>
 				</nav><!-- #site-navigation -->
 			</div><!-- #navbar -->
