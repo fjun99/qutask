@@ -39,7 +39,7 @@
     position: absolute;
     left: 0px;
     top: 0px;
-    background-image: url("<?php echo get_template_directory_uri(); ?>/qu-logo.jpg");
+    background-image: url("<?php echo get_template_directory_uri(); ?>/qu-logo.png");
 }
 
 ul.nav-menu {
@@ -48,7 +48,13 @@ ul.nav-menu {
 
 @media (max-width: 643px) {
     .site-logo{
+        position: absolute;
+        left: 120px;
+        top: 0px;
+    }
 
+    ul.nav-menu {
+        padding-left: 0px;
     }
 }
 
