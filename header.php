@@ -32,6 +32,7 @@
 <style>
 
 .site-logo{
+    height:45px;
     max-height:45px;
 }
 
