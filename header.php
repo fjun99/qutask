@@ -29,40 +29,6 @@
 	<![endif]-->
 	<?php wp_head(); ?>
 
-<style>
-
-.site-logo{
-    display:block;
-    height:45px;
-    width:155px;
-    max-height:45px;
-    position: absolute;
-    left: 0px;
-    top: 0px;
-}
-
-.logo-img{
-    height:45px;
-    width:155px;
-}
-
-ul.nav-menu {
-    padding-left: 160px;
-}
-
-@media (max-width: 643px) {
-    .site-logo{
-        position: absolute;
-        left: 120px;
-        top: 0px;
-    }
-
-    ul.nav-menu {
-        padding-left: 0px;
-    }
-}
-
-</style>
 
 </head>
 
