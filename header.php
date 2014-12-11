@@ -34,7 +34,7 @@
 .site-logo{
     display:block;
     height:45px;
-    width:68px;
+    width:155px;
     max-height:45px;
     position: absolute;
     left: 0px;
@@ -43,11 +43,11 @@
 
 .logo-img{
     height:45px;
-    width:68px;
+    width:155px;
 }
 
 ul.nav-menu {
-    padding-left: 100px;
+    padding-left: 160px;
 }
 
 @media (max-width: 643px) {
