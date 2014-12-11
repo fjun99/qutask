@@ -3329,7 +3329,8 @@ a.btn:hover{
     padding-top: 14px;
 }
 
-.home .ds-thread {
+.home .ds-thread,
+.page-id-2694 .ds-thread{
     display: none;
 }
 
