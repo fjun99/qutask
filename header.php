@@ -39,6 +39,7 @@
     position: absolute;
     left: 0px;
     top: 0px;
+    background-image: url("<?php echo get_template_directory_uri(); ?>/qu-logo.jpg");
 }
 
 ul.nav-menu {
@@ -68,7 +69,7 @@ ul.nav-menu {
 					<button class="menu-toggle"><?php _e( 'Menu', 'twentythirteen' ); ?></button>
 					<a class="screen-reader-text skip-link" href="#content" title="<?php esc_attr_e( 'Skip to content', 'twentythirteen' ); ?>"><?php _e( 'Skip to content', 'twentythirteen' ); ?></a>
 					<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_class' => 'nav-menu' ) ); ?>
-                    <a class="site-logo" style='background-image: url("<?php echo get_template_directory_uri(); ?>/qu-logo.jpg");'  href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"></a>
+                    <a class="site-logo" href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"></a>
 					<?php get_search_form(); ?>
 				</nav><!-- #site-navigation -->
 			</div><!-- #navbar -->
