@@ -3334,7 +3334,9 @@ a.btn:hover{
     display: none;
 }
 
-.page-id-2694 .sidebar-container {
+.page-id-2694 .sidebar-container,
+.page-id-1238 .sidebar-container
+{
     display: none;
 }
 
