@@ -35,6 +35,13 @@
     height:45px;
     width:68px;
     max-height:45px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+ul.nav-menu {
+    padding-left: 100px;
 }
 
 @media (max-width: 643px) {
@@ -60,7 +67,7 @@
 					<button class="menu-toggle"><?php _e( 'Menu', 'twentythirteen' ); ?></button>
 					<a class="screen-reader-text skip-link" href="#content" title="<?php esc_attr_e( 'Skip to content', 'twentythirteen' ); ?>"><?php _e( 'Skip to content', 'twentythirteen' ); ?></a>
 					<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_class' => 'nav-menu' ) ); ?>
-                    <div class="site-logo" style='background-image: url("<?php echo get_template_directory_uri(); ?>/qu-logo.jpg");'><div>
+                    <div class="site-logo" style='background-image: url("<?php echo get_template_directory_uri(); ?>/qu-logo.jpg");'></div>
 					<?php get_search_form(); ?>
 				</nav><!-- #site-navigation -->
 			</div><!-- #navbar -->
