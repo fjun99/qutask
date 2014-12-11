@@ -39,21 +39,11 @@
     position: absolute;
     left: 0px;
     top: 0px;
-    background-image: url("<?php echo get_template_directory_uri(); ?>/qu-logo.png");
 }
 
 .logo-img{
     height:45px;
     width:68px;
-}
-
-@media only screen and (-webkit-min-device-pixel-ratio: 2),
-only screen and (min--moz-device-pixel-ratio: 2),
-only screen and (-o-min-device-pixel-ratio: 2/1)
-{
-    .site-logo{
-        background:url("<?php echo get_template_directory_uri(); ?>/qu-logo@2x.png") no-repeat;
-    }
 }
 
 ul.nav-menu {
